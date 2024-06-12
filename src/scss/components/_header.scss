@@ -1,0 +1,26 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 40rem;
+	
+  &__btn {
+    font-family: var(--ff-btn);
+    font-weight: 700;
+    font-size: 14rem;
+    line-height: 143%;
+  }
+}
+
+.btn-signup {
+  display: inline-block;
+  color: var(--c-primary);
+  padding: 8rem 20rem;
+}
+
+.btn-signin {
+  color: var(--c-white);
+  display: inline-block;
+  background: var(--c-primary);
+  padding: 8rem 20rem;
+}

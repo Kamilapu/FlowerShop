@@ -1,0 +1,43 @@
+.plants {
+  margin-bottom: 80rem;
+
+  &__title {
+    font-family: var(--ff);
+    font-weight: 500;
+    font-size: 20rem;
+    color: var(--c-black);
+    text-align: center;
+    padding-bottom: 16rem;
+    border-bottom: 1rem solid #e0e0e0;
+  }
+
+  &__name {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16rem;
+    color: var(--c-black);
+  }
+
+  &__number {
+    font-family: var(--ff);
+    font-weight: 600;
+    font-size: 16rem;
+    color: var(--c-black);
+  }
+}
+
+.plants-grid {
+  text-align: center;
+  margin-top: 31rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20rem;
+}
+
+.col {
+  flex: 0 1 calc((100% - gap * 4) / 5);
+}

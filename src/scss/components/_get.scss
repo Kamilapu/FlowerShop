@@ -1,0 +1,29 @@
+.get {
+  background: #f3f4f6;
+  display: flex;
+  align-items: center;
+  padding-left: 97rem;
+  margin-bottom: 61rem;
+
+  &__title {
+    font-family: var(--ff);
+    font-weight: 700;
+    font-size: 40rem;
+    line-height: 140%;
+    color: var(--c-text);
+    padding-bottom: 32rem;
+  }
+
+  &__btn {
+    display: inline-block;
+    font-family: var(--ff-btn);
+    font-weight: 700;
+    font-size: 14rem;
+    line-height: 143%;
+    color: var(--c-white);
+
+    border: 1px solid var(--c-primary);
+    padding: 10rem 42rem;
+    background: var(--c-primary);
+  }
+}

@@ -1,0 +1,66 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 80rem;
+
+  &__text {
+    max-width: 523rem;
+    text-align: center;
+
+    margin-top: 197rem;
+    margin-bottom: 323rem;
+  }
+
+  &__title {
+    font-family: var(--ff);
+    font-weight: 500;
+    font-size: 68rem;
+    color: var(--c-primary);
+    margin-bottom: 24rem;
+  }
+
+  &__description {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 18rem;
+    line-height: 178%;
+    color: var(--c-text);
+    opacity: 0.8;
+  }
+}
+
+.blocks {
+  display: flex;
+  gap: 32rem;
+}
+
+.card-about {
+  border: 1px solid #e0e0e0;
+  padding: 22rem 42rem 22rem 16rem;
+  max-width: 268rem;
+}
+
+.block-top {
+display: flex;
+gap: 16rem;
+align-items: center;
+padding-bottom: 16rem;
+}
+
+.block-title {
+  font-family: var(--ff);
+  font-weight: 700;
+  font-size: 16rem;
+  line-height: 150%;
+  color: var(--c-primary);
+}
+
+.block-desc {
+  font-family: var(--ff);
+  font-weight: 400;
+  font-size: 10rem;
+  line-height: 160%;
+  color: var(--c-text);
+}

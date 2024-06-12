@@ -1,0 +1,17 @@
+// breakpoints
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+
+:root {
+	--ff: "Montserrat", sans-serif;
+	--ff-btn: "Nunito", sans-serif;
+
+	--c-primary: #156963;
+	--c-white: #fff;
+	--c-black: #000; 
+	--c-text:  #2c1500;
+
+	--transition: .2s all ease-in-out;
+}
