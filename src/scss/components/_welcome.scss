@@ -11,6 +11,11 @@
 
     margin-top: 197rem;
     margin-bottom: 323rem;
+
+    @include tablet-small {
+      margin-top: 150rem;
+      margin-bottom: 200rem;
+    }
   }
 
   &__title {
@@ -33,7 +38,12 @@
 
 .blocks {
   display: flex;
+  justify-content: center;
   gap: 32rem;
+
+  @include tablet {
+    flex-wrap: wrap;
+  }
 }
 
 .card-about {
@@ -43,10 +53,10 @@
 }
 
 .block-top {
-display: flex;
-gap: 16rem;
-align-items: center;
-padding-bottom: 16rem;
+  display: flex;
+  gap: 16rem;
+  align-items: center;
+  padding-bottom: 16rem;
 }
 
 .block-title {

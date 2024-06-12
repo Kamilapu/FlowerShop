@@ -5,6 +5,15 @@
   padding-left: 97rem;
   margin-bottom: 61rem;
 
+  @include tablet {
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+  }
+
+  @include tablet-small {
+    padding: 20rem 10rem;
+  }
+
   &__title {
     font-family: var(--ff);
     font-weight: 700;
@@ -12,6 +21,10 @@
     line-height: 140%;
     color: var(--c-text);
     padding-bottom: 32rem;
+
+    @include mobile {
+      font-size: 35rem;
+    }
   }
 
   &__btn {
@@ -25,5 +38,11 @@
     border: 1px solid var(--c-primary);
     padding: 10rem 42rem;
     background: var(--c-primary);
+  }
+
+  &__img {
+    @include tablet-small {
+      display: none;
+    }
   }
 }

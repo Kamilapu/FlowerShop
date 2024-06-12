@@ -36,6 +36,11 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20rem;
+
+  @include desktop-small {
+    justify-content: center;
+  }
+
 }
 
 .col {

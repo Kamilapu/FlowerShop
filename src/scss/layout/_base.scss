@@ -1,32 +1,45 @@
 html,
 body {
-	height: 100%;
-	font-size: 1px;
+  height: 100%;
+  font-size: 1px; 
+  
+  @include tablet {
+    font-size: 0.9px;
+  }
+  @include tablet-small {
+	font-size: 0.8px;
+  }
+  @include mobile {
+	font-size: 0.7px;
+  }
+
 }
 
 * {
-	padding: 0;
-	margin: 0;
-	outline: 0;
+  padding: 0;
+  margin: 0;
+  outline: 0;
 }
 body {
-	font-family: "Montserrat", sans-serif;
-	font-size: 16rem;
-	overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16rem;
+  overflow-x: hidden;
+
+ 
 }
 
 a {
-	color: #fff;
-	text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .container {
-	max-width: 1280px;
-	margin-inline: auto;
-	padding-left: 56rem;
-	padding-right: 56rem;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-left: 56rem;
+  padding-right: 56rem;
 }
 
 img {
-	max-width: 100%;
+  width: 100%;
 }
